@@ -232,6 +232,7 @@ variable "block_device_mappings" {
     volume_size           = number
     encrypted             = bool
     iops                  = number
+    virtual_name          = string
   }))
   default = []
 }
